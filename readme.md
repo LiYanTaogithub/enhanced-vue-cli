@@ -42,7 +42,7 @@ enhancedVue create your_project_name
 ### 创建Vue组件：
 
 ````shell
-enhancedVue addcpn YourComponentName # 例如coderwhy add NavBar，默认会存放到src/components文件夹中
+enhancedVue addcpn YourComponentName # 例如enhancedVue add NavBar，默认会存放到src/components文件夹中
 enhancedVue addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体文件夹
 ````
 
@@ -51,7 +51,7 @@ enhancedVue addcpn YourComponentName -d src/pages/home # 也可以指定存放�
 ### 创建Vue页面，并配置路由
 
 ```shell
-enhancedVue addpage YourPageName # 例如coderwhy addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js
+enhancedVue addpage YourPageName # 例如enhancedVue addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js
 enhancedVue addpage YourPageName -d src/views # 也可以指定文件夹，但需要手动集成路由
 ```
 
@@ -76,7 +76,7 @@ const routes = files.keys().map(key => {
 ### 创建Vuex子模块
 
 ```shell
-coderwhy addstore YourVuexChildModuleName # 例如coderwhy addstore home，默认会放到src/store/modules/home/index.js和types.js
+coderwhy addstore YourVuexChildModuleName # 例如enhancedVue addstore home，默认会放到src/store/modules/home/index.js和types.js
 coderwhy addstore YourVuexChildModuleName -d src/vuex/modules # 也可以指定文件夹
 ```
 
