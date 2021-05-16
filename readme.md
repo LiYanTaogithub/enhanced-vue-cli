@@ -27,11 +27,21 @@ enhancedVue create your_project_name
 
 自动拉取项目模板、安装项目依赖、打开浏览器 `http://localhost:8080/`、自动启动项目
 
-### 创建Vue组件：
+### 创建vue组件：
 
 ````shell
-enhancedVue addcpn YourComponentName # 例如enhancedVue add NavBar，默认会存放到src/components文件夹中
-enhancedVue addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体文件夹
+ls-cli addVueCpn componentName # ls-cli addVueCpn NavBar，默认会存放到 src/components文件夹中
+ls-cli addVUeCpn componentName -d src/pages/home # ls-cli addVUeCpn componentName -d src/pages/home 指定具体文件夹
 ````
-
-
+### 创建 vue page ，会默认创建一个 router.js 
+```shell
+ls-cli addVuePage pageName # ls-cli addVuePage Home 默认将在 src/pages 目录下创建
+ls-cli addVuePage pageName -d source/temp/home # ls-cli addVuePage Home -d source/temp/home 指定目标文件夹
+```
+### 创建 vue store 
+```shell
+ls-cli addVueStore storeName # ls-cli addVueStore Home 默认将在 src/store/modules 目录下创建
+```
+TODO:
+react 模板选择、页面组件创建
+控制台打印信息完善
