@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 const program = require('commander');
 
+// 可选参数
 const helpOptions = require('./lib/core/help');
+// 创建项目指令
 const createCommands = require('./lib/core/create');
 
 const log = require('./lib/utils/log');
